@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab086a44-8fa1-4246-9777-6db59f65ee1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AliPay.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PayConfig.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WxPay.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/alipay/AliPayApi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/none/JsApiPay.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/none/WxMicroPay.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayApi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayBizPayUrl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayCloseOrder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayConfig.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayConfigInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayDataBase.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayDataBaseSignMd5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayDownloadBill.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayJsApiPay.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayMicroPay.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayNotify.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayNotifyReply.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayNotifyResults.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayOrderQuery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayRefund.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayRefundQuery.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayReport.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayResults.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayReverse.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayShortUrl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wxpay/WxPayUnifiedOrder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linepay/PayConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/linepay/PayConfig.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="472">
+                <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,9 +33,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/linepay/PayConfig.php" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
@@ -85,6 +61,11 @@
             <path>
               <item name="TP5.1-WeChat-Alipay-payment" type="b2602c69:ProjectViewProjectNode" />
               <item name="TP5.1-WeChat-Alipay-payment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TP5.1-WeChat-Alipay-payment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TP5.1-WeChat-Alipay-payment" type="462c0819:PsiDirectoryNode" />
+              <item name="linepay" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -121,12 +102,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552698598695</updated>
-      <workItem from="1552698599844" duration="476000" />
+      <workItem from="1552698599844" duration="3224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="476000" />
+    <option name="totallyTimeSpent" value="3224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1010" extended-state="0" />
@@ -157,11 +138,25 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/linepay/WxPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linepay/PayConfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="472">
+            <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>

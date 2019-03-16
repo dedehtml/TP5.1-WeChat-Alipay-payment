@@ -22,7 +22,7 @@ class WxPay
 
     /**
      * 微信支付 JsApi
-     * @param string $openId                    用户openid
+     * @param string $openId                    用户openid 可空
      * @param string $Body                      商品简单描述
      * @param string $attach                    附加数据，在查询API和支付通知中原样返回，可作为自定义参数使用
      * @param string $Out_trade_no              商户系统内部订单号，要求32个字符内，只能是数字、大小写字母_-|* 且在同一个商户号下唯一
@@ -114,7 +114,7 @@ class WxPay
                 $input->SetTotal_fee($total_fee);
                 $input->SetRefund_fee($refund_fee);
                 $config = new WxPayConfig();
-                $input->SetOut_refund_no(EncryptionEnum::WxPayCode.date("YmdHis").$total_fee);
+                $input->SetOut_refund_no(date("YmdHis").$total_fee);
                 $input->SetOp_user_id($config->GetMerchantId());
                 return WxPayApi::refund($config, $input);
             } catch(Exception $e) {
@@ -129,7 +129,7 @@ class WxPay
                 $input->SetTotal_fee($total_fee);
                 $input->SetRefund_fee($refund_fee);
                 $config = new WxPayConfig();
-                $input->SetOut_refund_no(EncryptionEnum::WxPayCode.date("YmdHis").$total_fee);
+                $input->SetOut_refund_no(date("YmdHis").$total_fee);
                 $input->SetOp_user_id($config->GetMerchantId());
                 return WxPayApi::refund($config, $input);
             } catch(Exception $e) {

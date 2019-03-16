@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab086a44-8fa1-4246-9777-6db59f65ee1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linepay/WxPay.php" beforeDir="false" afterPath="$PROJECT_DIR$/linepay/WxPay.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="326">
-                <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+              <first_editor relative-caret-position="714">
+                <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,6 +28,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EncryptionEnum::WxPayCode.</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -33,6 +40,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/linepay/PayConfig.php" />
+        <option value="$PROJECT_DIR$/linepay/WxPay.php" />
+        <option value="$PROJECT_DIR$/linepay/AliPay.php" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -101,12 +110,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552698598695</updated>
-      <workItem from="1552698599844" duration="3272000" />
+      <workItem from="1552698599844" duration="4235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3272000" />
+    <option name="totallyTimeSpent" value="4235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1010" extended-state="0" />
@@ -137,13 +146,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/linepay/WxPay.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linepay/PayConfig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
@@ -151,11 +153,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linepay/alipay/AliPayApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5601" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linepay/wxpay/WxPayNotifyReply.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linepay/wxpay/WxPayBizPayUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linepay/AliPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linepay/wxpay/WxPayApi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linepay/WxPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="150" column="111" selection-start-line="150" selection-start-column="27" selection-end-line="150" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="326">
-            <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <first_editor relative-caret-position="714">
+            <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
           </first_editor>
           <second_editor />
         </state>

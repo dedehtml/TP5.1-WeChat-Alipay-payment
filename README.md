@@ -37,11 +37,11 @@ linepay 为开源项目，允许把它用于任何地方，不受任何约束，
     public static function AliPay(){
         return [
             //应用ID
-            'Appid'                     => '2016112503296230',
+            'Appid'                     => '',
             //同步回调地址
-            'ReturnUrl'                 => 'http://lineageja.com',
+            'ReturnUrl'                 => '',
             //异步回调地址
-            'NotifyUrl'                 => 'http://lineageja.com',
+            'NotifyUrl'                 => '',
             //商户私钥 === 这是生成的私钥
             'RsaPrivateKey'             => '',
             //支付宝公钥 === 这是上传后的 旁边有个支付宝公钥

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ab086a44-8fa1-4246-9777-6db59f65ee1b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linepay/PayConfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/linepay/PayConfig.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +16,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="472">
-                <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+              <first_editor relative-caret-position="326">
+                <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -102,12 +101,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552698598695</updated>
-      <workItem from="1552698599844" duration="3224000" />
+      <workItem from="1552698599844" duration="3272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3224000" />
+    <option name="totallyTimeSpent" value="3272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1010" extended-state="0" />
@@ -155,8 +154,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="472">
-            <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+          <first_editor relative-caret-position="326">
+            <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
